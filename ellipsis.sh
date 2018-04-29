@@ -8,6 +8,8 @@ pkg.install() {
   cargo install protobuf 
   cargo install grpcio-compiler
   yarn global add grpcc
+  go get -u google.golang.org/grpc
+  go get -u github.com/golang/protobuf/protoc-gen-go
 }
 
 # pkg.push() {
