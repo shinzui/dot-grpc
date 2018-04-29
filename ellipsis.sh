@@ -7,6 +7,7 @@ pkg.install() {
   brew install cmake grpc protobuf
   cargo install protobuf 
   cargo install grpcio-compiler
+  yarn global add grpcc
 }
 
 # pkg.push() {
